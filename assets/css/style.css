@@ -61,19 +61,30 @@ div.first:hover{
     grid-template-columns: auto auto auto;
     
 }
+.textoben{
+    display: grid;
+    margin-left: 75px;
+    margin-right: 20px;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    
+
+}
 span{
-    display: flex;
-    justify-content: space-around;
+    
+    text-align: right;
+    
+    
 }
 img{
-    width: 60%;
+    width: 70%;
     height: auto;
     
 }
   .grid-item {
-    padding: 7px;
+    padding: 20px;
     text-align: center;
-    justify-content: space-around;
+    
     
   }
   img:hover{
