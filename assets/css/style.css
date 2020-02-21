@@ -2,9 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background: white;
-
+    font-family: 'Karla';
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+li{
+    padding-right: 40px;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 section{
     height: 100vh;
     width: 100%;
@@ -16,23 +33,15 @@ section{
     background: url(../img/1.png) center/cover no-repeat;
     padding: 60px;
     display: table;
-
 }
 div.first:hover{
-
-    
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     transition: 1s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }   
-#main {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-   
-  }
+
 .size{
     height: 120vh;
 }
@@ -41,17 +50,14 @@ div.first:hover{
     height: 100vh;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    
 }
 img{
     width: 60%;
     height: auto;
 }
-
   .grid-item {
-    
-    padding: 20px;
-    font-size: 30px;
+    padding: 7px;
     text-align: center;
   }
   img:hover{
@@ -72,15 +78,12 @@ img{
 
 }
 div.first2:hover{
-
-    
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     transition: 1s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
-
 .first3{
     height: 80vh;
     width: 80%;
@@ -88,11 +91,8 @@ div.first2:hover{
     background: url(../img/h6.png) center/cover no-repeat;
     padding: 60px;
     display: table;
-
 }
 div.first3:hover{
-
-    
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
@@ -106,18 +106,15 @@ div.first3:hover{
     background: url(../img/c22.png) center/cover no-repeat;
     padding: 60px;
     display: table;
-
 }
 div.first4:hover{
-
-    
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     transition: 1s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
-.first4{
+.first5{
     height: 80vh;
     width: 80%;
     margin: auto;
@@ -126,12 +123,24 @@ div.first4:hover{
     display: table;
 
 }
-div.first4:hover{
+div.first5:hover{
 
-    
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     transition: 1s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.textbottom{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        font-family: 'Karla';
+        height: 100px;
+        
+    }
+
+.last{
+    
+    height: 700px;
 }
